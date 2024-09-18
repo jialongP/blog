@@ -1,0 +1,985 @@
+2024-09-18 12:04:41,948 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2024-09-18 12:04:42,062 INFO o.a.j.JMeter: Loading user properties from: /usr/local/apache-jmeter-5.5/bin/user.properties
+2024-09-18 12:04:42,062 INFO o.a.j.JMeter: Loading system properties from: /usr/local/apache-jmeter-5.5/bin/system.properties
+2024-09-18 12:04:42,069 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2024-09-18 12:04:42,070 INFO o.a.j.JMeter: Version 5.5
+2024-09-18 12:04:42,070 INFO o.a.j.JMeter: java.version=1.8.0_352
+2024-09-18 12:04:42,070 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2024-09-18 12:04:42,070 INFO o.a.j.JMeter: os.name=Mac OS X
+2024-09-18 12:04:42,070 INFO o.a.j.JMeter: os.arch=aarch64
+2024-09-18 12:04:42,070 INFO o.a.j.JMeter: os.version=14.4.1
+2024-09-18 12:04:42,070 INFO o.a.j.JMeter: file.encoding=UTF-8
+2024-09-18 12:04:42,070 INFO o.a.j.JMeter: java.awt.headless=null
+2024-09-18 12:04:42,070 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-09-18 12:04:42,070 INFO o.a.j.JMeter: Available Processors =8
+2024-09-18 12:04:42,075 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-09-18 12:04:42,075 INFO o.a.j.JMeter: JMeter  Locale=Chinese (China)
+2024-09-18 12:04:42,075 INFO o.a.j.JMeter: JMeterHome=/usr/local/apache-jmeter-5.5
+2024-09-18 12:04:42,075 INFO o.a.j.JMeter: user.dir  =/Users/panjialong/Downloads/vuepress-theme-vdoing
+2024-09-18 12:04:42,075 INFO o.a.j.JMeter: PWD       =/Users/panjialong/Downloads/vuepress-theme-vdoing
+2024-09-18 12:04:42,076 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: panjialongdeMacBook-Pro.local FullName: localhost
+2024-09-18 12:04:42,088 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2024-09-18 12:04:42,465 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: laf:com.apple.laf.AquaLookAndFeel
+2024-09-18 12:04:47,367 INFO o.j.r.JARSourceHTTP: Using proxy 127.0.0.1:17890
+2024-09-18 12:04:47,370 INFO o.j.r.JARSourceHTTP: Using proxy 127.0.0.1:17890
+2024-09-18 12:04:47,394 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=mac_os_x-5f6e2ce920e335128654c7a87ff35217-gui
+2024-09-18 12:04:51,570 INFO o.j.r.JARSourceHTTP: Using proxy 127.0.0.1:17890
+2024-09-18 12:04:51,572 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=2.0, jpgc-graphs-additional=2.0, jpgc-plugins-manager=1.8, jmeter-core=5.5, jmeter-ftp=5.5, jmeter-http=5.5, jmeter-jdbc=5.5, jmeter-jms=5.5, jmeter-junit=5.5, jmeter-java=5.5, jmeter-ldap=5.5, jmeter-mail=5.5, jmeter-mongodb=5.5, jmeter-native=5.5, jmeter-tcp=5.5, jmeter-components=5.5]
+2024-09-18 12:04:51,573 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-plugins-manager]
+2024-09-18 12:08:24,004 INFO o.a.j.s.FileServer: Default base='/Users/panjialong/Downloads/vuepress-theme-vdoing'
+2024-09-18 12:08:24,007 INFO o.a.j.g.a.Load: Loading file: /Users/panjialong/Downloads/培训系统压测.jmx
+2024-09-18 12:08:24,007 INFO o.a.j.s.FileServer: Set new base='/Users/panjialong/Downloads'
+2024-09-18 12:08:24,107 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-09-18 12:08:24,114 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-09-18 12:08:24,115 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-09-18 12:08:24,117 INFO o.a.j.s.SaveService: Loading file: /Users/panjialong/Downloads/培训系统压测.jmx
+2024-09-18 12:08:24,247 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-09-18 12:08:24,247 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-09-18 12:08:24,247 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-09-18 12:08:24,247 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-09-18 12:08:24,247 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-09-18 12:08:24,247 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-09-18 12:08:24,254 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-09-18 12:08:24,254 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2024-09-18 12:08:24,254 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-09-18 12:08:24,254 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-09-18 12:08:24,259 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2024-09-18 12:08:24,583 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2024-09-18 12:08:24,662 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2024-09-18 12:08:24,779 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2024-09-18 12:08:24,823 INFO o.a.j.s.FileServer: Set new base='/Users/panjialong/Downloads'
+2024-09-18 12:09:22,233 INFO o.a.j.g.a.Load: Loading file: /Users/panjialong/Downloads/观看视频.jmx
+2024-09-18 12:09:22,240 INFO o.a.j.s.FileServer: Set new base='/Users/panjialong/Downloads'
+2024-09-18 12:09:22,240 INFO o.a.j.s.SaveService: Loading file: /Users/panjialong/Downloads/观看视频.jmx
+2024-09-18 12:09:22,459 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2024-09-18 12:09:22,537 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2024-09-18 12:09:22,566 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2024-09-18 12:09:22,626 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2024-09-18 12:09:22,650 INFO o.a.j.s.FileServer: Set new base='/Users/panjialong/Downloads'
+2024-09-18 14:22:54,585 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-09-18 14:22:54,590 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-09-18 14:22:54,590 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-09-18 14:22:54,591 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2024-09-18 14:22:54,591 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2024-09-18 14:22:54,934 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-09-18 14:22:55,150 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 只访问视频
+2024-09-18 14:22:55,150 INFO o.a.j.e.StandardJMeterEngine: Starting 150 threads for group 只访问视频.
+2024-09-18 14:22:55,150 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-09-18 14:22:55,150 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=150 ramp-up=1 delayedStart=false
+2024-09-18 14:22:55,157 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-1
+2024-09-18 14:22:55,159 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-2
+2024-09-18 14:22:55,168 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-3
+2024-09-18 14:22:55,170 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = panjialongdeMacBook-Pro.local
+2024-09-18 14:22:55,172 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-4
+2024-09-18 14:22:55,177 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2024-09-18 14:22:55,180 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-5
+2024-09-18 14:22:55,188 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-6
+2024-09-18 14:22:55,195 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-09-18 14:22:55,195 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-09-18 14:22:55,197 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-7
+2024-09-18 14:22:55,201 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-8
+2024-09-18 14:22:55,207 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-9
+2024-09-18 14:22:55,216 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-10
+2024-09-18 14:22:55,223 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-11
+2024-09-18 14:22:55,233 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-12
+2024-09-18 14:22:55,240 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-13
+2024-09-18 14:22:55,247 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-14
+2024-09-18 14:22:55,250 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-15
+2024-09-18 14:22:55,259 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-16
+2024-09-18 14:22:55,264 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-17
+2024-09-18 14:22:55,275 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-18
+2024-09-18 14:22:55,277 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-19
+2024-09-18 14:22:55,287 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-20
+2024-09-18 14:22:55,295 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-16
+2024-09-18 14:22:55,295 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-3
+2024-09-18 14:22:55,295 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-6
+2024-09-18 14:22:55,295 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-21
+2024-09-18 14:22:55,295 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-16
+2024-09-18 14:22:55,295 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-3
+2024-09-18 14:22:55,295 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-6
+2024-09-18 14:22:55,295 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-8
+2024-09-18 14:22:55,295 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-8
+2024-09-18 14:22:55,295 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-14
+2024-09-18 14:22:55,295 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-14
+2024-09-18 14:22:55,295 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-10
+2024-09-18 14:22:55,295 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-10
+2024-09-18 14:22:55,296 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-2
+2024-09-18 14:22:55,296 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-2
+2024-09-18 14:22:55,299 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-22
+2024-09-18 14:22:55,307 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-23
+2024-09-18 14:22:55,308 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-17
+2024-09-18 14:22:55,308 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-17
+2024-09-18 14:22:55,310 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-15
+2024-09-18 14:22:55,310 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-15
+2024-09-18 14:22:55,311 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-4
+2024-09-18 14:22:55,311 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-4
+2024-09-18 14:22:55,311 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-23
+2024-09-18 14:22:55,311 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-23
+2024-09-18 14:22:55,312 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-13
+2024-09-18 14:22:55,312 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-5
+2024-09-18 14:22:55,312 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-13
+2024-09-18 14:22:55,312 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-5
+2024-09-18 14:22:55,312 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-11
+2024-09-18 14:22:55,312 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-11
+2024-09-18 14:22:55,313 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-12
+2024-09-18 14:22:55,313 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-12
+2024-09-18 14:22:55,313 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-24
+2024-09-18 14:22:55,319 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-18
+2024-09-18 14:22:55,319 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-19
+2024-09-18 14:22:55,319 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-18
+2024-09-18 14:22:55,319 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-19
+2024-09-18 14:22:55,323 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-25
+2024-09-18 14:22:55,329 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-26
+2024-09-18 14:22:55,337 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-27
+2024-09-18 14:22:55,344 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-28
+2024-09-18 14:22:55,351 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-29
+2024-09-18 14:22:55,352 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-25
+2024-09-18 14:22:55,352 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-25
+2024-09-18 14:22:55,357 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-30
+2024-09-18 14:22:55,357 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-21
+2024-09-18 14:22:55,357 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-21
+2024-09-18 14:22:55,357 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-29
+2024-09-18 14:22:55,357 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-29
+2024-09-18 14:22:55,357 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-22
+2024-09-18 14:22:55,357 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-22
+2024-09-18 14:22:55,358 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-20
+2024-09-18 14:22:55,358 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-20
+2024-09-18 14:22:55,362 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-24
+2024-09-18 14:22:55,362 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-24
+2024-09-18 14:22:55,363 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-26
+2024-09-18 14:22:55,363 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-26
+2024-09-18 14:22:55,363 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-31
+2024-09-18 14:22:55,366 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-28
+2024-09-18 14:22:55,366 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-28
+2024-09-18 14:22:55,367 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-27
+2024-09-18 14:22:55,367 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-27
+2024-09-18 14:22:55,368 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-30
+2024-09-18 14:22:55,368 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-30
+2024-09-18 14:22:55,372 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-32
+2024-09-18 14:22:55,375 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-31
+2024-09-18 14:22:55,375 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-31
+2024-09-18 14:22:55,376 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-33
+2024-09-18 14:22:55,385 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-33
+2024-09-18 14:22:55,385 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-33
+2024-09-18 14:22:55,385 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-34
+2024-09-18 14:22:55,390 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-34
+2024-09-18 14:22:55,390 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-34
+2024-09-18 14:22:55,391 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-32
+2024-09-18 14:22:55,391 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-32
+2024-09-18 14:22:55,392 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-35
+2024-09-18 14:22:55,397 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-36
+2024-09-18 14:22:55,402 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-35
+2024-09-18 14:22:55,404 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-35
+2024-09-18 14:22:55,405 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-37
+2024-09-18 14:22:55,405 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-36
+2024-09-18 14:22:55,405 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-36
+2024-09-18 14:22:55,408 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-37
+2024-09-18 14:22:55,408 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-37
+2024-09-18 14:22:55,411 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-1
+2024-09-18 14:22:55,411 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-1
+2024-09-18 14:22:55,412 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-38
+2024-09-18 14:22:55,412 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-9
+2024-09-18 14:22:55,412 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-9
+2024-09-18 14:22:55,413 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-7
+2024-09-18 14:22:55,413 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-7
+2024-09-18 14:22:55,415 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-38
+2024-09-18 14:22:55,415 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-38
+2024-09-18 14:22:55,421 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-39
+2024-09-18 14:22:55,423 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-39
+2024-09-18 14:22:55,423 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-39
+2024-09-18 14:22:55,428 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-40
+2024-09-18 14:22:55,432 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-40
+2024-09-18 14:22:55,432 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-40
+2024-09-18 14:22:55,435 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-41
+2024-09-18 14:22:55,439 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-41
+2024-09-18 14:22:55,440 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-41
+2024-09-18 14:22:55,443 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-42
+2024-09-18 14:22:55,449 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-43
+2024-09-18 14:22:55,453 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-44
+2024-09-18 14:22:55,454 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-43
+2024-09-18 14:22:55,454 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-43
+2024-09-18 14:22:55,459 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-45
+2024-09-18 14:22:55,466 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-45
+2024-09-18 14:22:55,466 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-45
+2024-09-18 14:22:55,466 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-46
+2024-09-18 14:22:55,472 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-46
+2024-09-18 14:22:55,472 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-46
+2024-09-18 14:22:55,473 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-44
+2024-09-18 14:22:55,473 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-44
+2024-09-18 14:22:55,477 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-47
+2024-09-18 14:22:55,481 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-47
+2024-09-18 14:22:55,481 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-47
+2024-09-18 14:22:55,481 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-48
+2024-09-18 14:22:55,483 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-48
+2024-09-18 14:22:55,483 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-48
+2024-09-18 14:22:55,487 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-49
+2024-09-18 14:22:55,496 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-49
+2024-09-18 14:22:55,496 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-49
+2024-09-18 14:22:55,498 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-50
+2024-09-18 14:22:55,505 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-50
+2024-09-18 14:22:55,505 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-50
+2024-09-18 14:22:55,505 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-51
+2024-09-18 14:22:55,508 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-52
+2024-09-18 14:22:55,509 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-51
+2024-09-18 14:22:55,509 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-51
+2024-09-18 14:22:55,513 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-52
+2024-09-18 14:22:55,513 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-52
+2024-09-18 14:22:55,515 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-53
+2024-09-18 14:22:55,522 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-53
+2024-09-18 14:22:55,522 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-53
+2024-09-18 14:22:55,526 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-54
+2024-09-18 14:22:55,534 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-55
+2024-09-18 14:22:55,537 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-54
+2024-09-18 14:22:55,537 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-54
+2024-09-18 14:22:55,539 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-56
+2024-09-18 14:22:55,541 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-55
+2024-09-18 14:22:55,542 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-55
+2024-09-18 14:22:55,544 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-57
+2024-09-18 14:22:55,546 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-56
+2024-09-18 14:22:55,547 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-56
+2024-09-18 14:22:55,549 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-57
+2024-09-18 14:22:55,549 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-57
+2024-09-18 14:22:55,549 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-58
+2024-09-18 14:22:55,552 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-42
+2024-09-18 14:22:55,552 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-42
+2024-09-18 14:22:55,553 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-58
+2024-09-18 14:22:55,553 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-58
+2024-09-18 14:22:55,561 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-59
+2024-09-18 14:22:55,566 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-59
+2024-09-18 14:22:55,566 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-59
+2024-09-18 14:22:55,567 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-60
+2024-09-18 14:22:55,571 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-60
+2024-09-18 14:22:55,571 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-60
+2024-09-18 14:22:55,571 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-61
+2024-09-18 14:22:55,576 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-61
+2024-09-18 14:22:55,576 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-61
+2024-09-18 14:22:55,581 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-62
+2024-09-18 14:22:55,586 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-62
+2024-09-18 14:22:55,587 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-62
+2024-09-18 14:22:55,589 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-63
+2024-09-18 14:22:55,594 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-63
+2024-09-18 14:22:55,594 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-63
+2024-09-18 14:22:55,597 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-64
+2024-09-18 14:22:55,602 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-64
+2024-09-18 14:22:55,602 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-64
+2024-09-18 14:22:55,604 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-65
+2024-09-18 14:22:55,608 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-65
+2024-09-18 14:22:55,608 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-65
+2024-09-18 14:22:55,609 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-66
+2024-09-18 14:22:55,615 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-66
+2024-09-18 14:22:55,615 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-66
+2024-09-18 14:22:55,617 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-67
+2024-09-18 14:22:55,621 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-67
+2024-09-18 14:22:55,621 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-67
+2024-09-18 14:22:55,624 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-68
+2024-09-18 14:22:55,627 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-69
+2024-09-18 14:22:55,630 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-68
+2024-09-18 14:22:55,631 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-68
+2024-09-18 14:22:55,631 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-69
+2024-09-18 14:22:55,632 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-69
+2024-09-18 14:22:55,635 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-70
+2024-09-18 14:22:55,642 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-70
+2024-09-18 14:22:55,642 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-70
+2024-09-18 14:22:55,645 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-71
+2024-09-18 14:22:55,651 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-72
+2024-09-18 14:22:55,657 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-73
+2024-09-18 14:22:55,658 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-71
+2024-09-18 14:22:55,658 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-71
+2024-09-18 14:22:55,659 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-72
+2024-09-18 14:22:55,659 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-72
+2024-09-18 14:22:55,663 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-73
+2024-09-18 14:22:55,663 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-73
+2024-09-18 14:22:55,666 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-74
+2024-09-18 14:22:55,671 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-74
+2024-09-18 14:22:55,671 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-74
+2024-09-18 14:22:55,673 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-75
+2024-09-18 14:22:55,676 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-75
+2024-09-18 14:22:55,676 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-75
+2024-09-18 14:22:55,680 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-76
+2024-09-18 14:22:55,683 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-76
+2024-09-18 14:22:55,683 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-76
+2024-09-18 14:22:55,685 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-77
+2024-09-18 14:22:55,691 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-77
+2024-09-18 14:22:55,691 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-77
+2024-09-18 14:22:55,694 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-78
+2024-09-18 14:22:55,703 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-79
+2024-09-18 14:22:55,704 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-80
+2024-09-18 14:22:55,715 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-81
+2024-09-18 14:22:55,718 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-78
+2024-09-18 14:22:55,718 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-78
+2024-09-18 14:22:55,719 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-81
+2024-09-18 14:22:55,719 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-81
+2024-09-18 14:22:55,719 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-80
+2024-09-18 14:22:55,719 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-80
+2024-09-18 14:22:55,720 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-79
+2024-09-18 14:22:55,720 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-79
+2024-09-18 14:22:55,721 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-82
+2024-09-18 14:22:55,725 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-82
+2024-09-18 14:22:55,725 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-82
+2024-09-18 14:22:55,729 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-83
+2024-09-18 14:22:55,735 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-83
+2024-09-18 14:22:55,735 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-83
+2024-09-18 14:22:55,736 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-84
+2024-09-18 14:22:55,739 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-84
+2024-09-18 14:22:55,739 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-84
+2024-09-18 14:22:55,744 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-85
+2024-09-18 14:22:55,747 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-85
+2024-09-18 14:22:55,747 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-85
+2024-09-18 14:22:55,750 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-86
+2024-09-18 14:22:55,754 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-86
+2024-09-18 14:22:55,754 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-86
+2024-09-18 14:22:55,757 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-87
+2024-09-18 14:22:55,760 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-87
+2024-09-18 14:22:55,760 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-87
+2024-09-18 14:22:55,764 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-88
+2024-09-18 14:22:55,768 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-88
+2024-09-18 14:22:55,768 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-88
+2024-09-18 14:22:55,770 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-89
+2024-09-18 14:22:55,774 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-89
+2024-09-18 14:22:55,774 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-89
+2024-09-18 14:22:55,778 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-90
+2024-09-18 14:22:55,784 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-90
+2024-09-18 14:22:55,784 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-90
+2024-09-18 14:22:55,786 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-91
+2024-09-18 14:22:55,793 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-91
+2024-09-18 14:22:55,793 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-91
+2024-09-18 14:22:55,793 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-92
+2024-09-18 14:22:55,799 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-93
+2024-09-18 14:22:55,802 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-92
+2024-09-18 14:22:55,802 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-92
+2024-09-18 14:22:55,803 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-93
+2024-09-18 14:22:55,803 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-94
+2024-09-18 14:22:55,803 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-93
+2024-09-18 14:22:55,807 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-94
+2024-09-18 14:22:55,807 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-94
+2024-09-18 14:22:55,814 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-95
+2024-09-18 14:22:55,817 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-96
+2024-09-18 14:22:55,818 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-95
+2024-09-18 14:22:55,818 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-95
+2024-09-18 14:22:55,820 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-96
+2024-09-18 14:22:55,820 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-96
+2024-09-18 14:22:55,826 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-97
+2024-09-18 14:22:55,830 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-97
+2024-09-18 14:22:55,830 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-97
+2024-09-18 14:22:55,834 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-98
+2024-09-18 14:22:55,837 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-99
+2024-09-18 14:22:55,837 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-98
+2024-09-18 14:22:55,838 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-98
+2024-09-18 14:22:55,840 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-99
+2024-09-18 14:22:55,840 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-99
+2024-09-18 14:22:55,847 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-100
+2024-09-18 14:22:55,852 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-101
+2024-09-18 14:22:55,860 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-101
+2024-09-18 14:22:55,860 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-101
+2024-09-18 14:22:55,863 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-102
+2024-09-18 14:22:55,868 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-103
+2024-09-18 14:22:55,869 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-102
+2024-09-18 14:22:55,869 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-102
+2024-09-18 14:22:55,872 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-104
+2024-09-18 14:22:55,876 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-103
+2024-09-18 14:22:55,876 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-103
+2024-09-18 14:22:55,876 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-104
+2024-09-18 14:22:55,876 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-104
+2024-09-18 14:22:55,884 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-105
+2024-09-18 14:22:55,890 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-106
+2024-09-18 14:22:55,897 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-107
+2024-09-18 14:22:55,905 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-108
+2024-09-18 14:22:55,911 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-105
+2024-09-18 14:22:55,911 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-105
+2024-09-18 14:22:55,910 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-109
+2024-09-18 14:22:55,917 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-110
+2024-09-18 14:22:55,918 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-106
+2024-09-18 14:22:55,918 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-108
+2024-09-18 14:22:55,918 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-108
+2024-09-18 14:22:55,919 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-106
+2024-09-18 14:22:55,919 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-109
+2024-09-18 14:22:55,919 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-109
+2024-09-18 14:22:55,920 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-107
+2024-09-18 14:22:55,920 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-107
+2024-09-18 14:22:55,921 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-110
+2024-09-18 14:22:55,921 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-110
+2024-09-18 14:22:55,922 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-111
+2024-09-18 14:22:55,930 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-111
+2024-09-18 14:22:55,930 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-111
+2024-09-18 14:22:55,934 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-112
+2024-09-18 14:22:55,935 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-113
+2024-09-18 14:22:55,936 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-112
+2024-09-18 14:22:55,936 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-112
+2024-09-18 14:22:55,938 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-113
+2024-09-18 14:22:55,938 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-113
+2024-09-18 14:22:55,947 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-114
+2024-09-18 14:22:55,950 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-114
+2024-09-18 14:22:55,950 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-114
+2024-09-18 14:22:55,951 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-115
+2024-09-18 14:22:55,953 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-115
+2024-09-18 14:22:55,953 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-115
+2024-09-18 14:22:55,961 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-116
+2024-09-18 14:22:55,963 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-100
+2024-09-18 14:22:55,963 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-100
+2024-09-18 14:22:55,965 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-116
+2024-09-18 14:22:55,965 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-116
+2024-09-18 14:22:55,967 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-117
+2024-09-18 14:22:55,969 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-118
+2024-09-18 14:22:55,975 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-117
+2024-09-18 14:22:55,975 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-117
+2024-09-18 14:22:55,975 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-118
+2024-09-18 14:22:55,975 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-118
+2024-09-18 14:22:55,977 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-119
+2024-09-18 14:22:55,983 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-119
+2024-09-18 14:22:55,983 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-119
+2024-09-18 14:22:55,988 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-120
+2024-09-18 14:22:55,994 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-120
+2024-09-18 14:22:55,994 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-120
+2024-09-18 14:22:55,995 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-121
+2024-09-18 14:22:56,002 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-121
+2024-09-18 14:22:56,002 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-121
+2024-09-18 14:22:56,003 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-122
+2024-09-18 14:22:56,007 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-122
+2024-09-18 14:22:56,007 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-122
+2024-09-18 14:22:56,010 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-123
+2024-09-18 14:22:56,014 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-123
+2024-09-18 14:22:56,014 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-123
+2024-09-18 14:22:56,017 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-124
+2024-09-18 14:22:56,019 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-124
+2024-09-18 14:22:56,019 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-124
+2024-09-18 14:22:56,023 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-125
+2024-09-18 14:22:56,031 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-126
+2024-09-18 14:22:56,032 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-125
+2024-09-18 14:22:56,032 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-125
+2024-09-18 14:22:56,035 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-126
+2024-09-18 14:22:56,035 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-126
+2024-09-18 14:22:56,035 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-127
+2024-09-18 14:22:56,037 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-127
+2024-09-18 14:22:56,037 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-127
+2024-09-18 14:22:56,042 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-128
+2024-09-18 14:22:56,047 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-128
+2024-09-18 14:22:56,047 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-128
+2024-09-18 14:22:56,051 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-129
+2024-09-18 14:22:56,055 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-129
+2024-09-18 14:22:56,055 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-129
+2024-09-18 14:22:56,056 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-130
+2024-09-18 14:22:56,060 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-130
+2024-09-18 14:22:56,060 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-130
+2024-09-18 14:22:56,062 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-131
+2024-09-18 14:22:56,068 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-131
+2024-09-18 14:22:56,068 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-131
+2024-09-18 14:22:56,070 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-132
+2024-09-18 14:22:56,075 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-132
+2024-09-18 14:22:56,075 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-132
+2024-09-18 14:22:56,082 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-133
+2024-09-18 14:22:56,085 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-133
+2024-09-18 14:22:56,085 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-133
+2024-09-18 14:22:56,087 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-134
+2024-09-18 14:22:56,091 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-134
+2024-09-18 14:22:56,091 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-134
+2024-09-18 14:22:56,093 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-135
+2024-09-18 14:22:56,100 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-135
+2024-09-18 14:22:56,100 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-135
+2024-09-18 14:22:56,101 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-136
+2024-09-18 14:22:56,104 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-136
+2024-09-18 14:22:56,104 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-136
+2024-09-18 14:22:56,109 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-137
+2024-09-18 14:22:56,114 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-137
+2024-09-18 14:22:56,114 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-137
+2024-09-18 14:22:56,115 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-138
+2024-09-18 14:22:56,118 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-138
+2024-09-18 14:22:56,118 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-138
+2024-09-18 14:22:56,122 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-139
+2024-09-18 14:22:56,128 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-140
+2024-09-18 14:22:56,129 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-139
+2024-09-18 14:22:56,129 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-139
+2024-09-18 14:22:56,133 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-140
+2024-09-18 14:22:56,133 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-140
+2024-09-18 14:22:56,135 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-141
+2024-09-18 14:22:56,139 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-141
+2024-09-18 14:22:56,139 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-141
+2024-09-18 14:22:56,142 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-142
+2024-09-18 14:22:56,147 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-143
+2024-09-18 14:22:56,149 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-142
+2024-09-18 14:22:56,149 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-142
+2024-09-18 14:22:56,152 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-143
+2024-09-18 14:22:56,152 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-143
+2024-09-18 14:22:56,155 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-144
+2024-09-18 14:22:56,159 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-144
+2024-09-18 14:22:56,159 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-144
+2024-09-18 14:22:56,161 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-145
+2024-09-18 14:22:56,165 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-145
+2024-09-18 14:22:56,165 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-145
+2024-09-18 14:22:56,170 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-146
+2024-09-18 14:22:56,177 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-147
+2024-09-18 14:22:56,177 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-146
+2024-09-18 14:22:56,178 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-146
+2024-09-18 14:22:56,182 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-147
+2024-09-18 14:22:56,183 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-147
+2024-09-18 14:22:56,182 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-148
+2024-09-18 14:22:56,185 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-148
+2024-09-18 14:22:56,185 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-148
+2024-09-18 14:22:56,192 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-149
+2024-09-18 14:22:56,195 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-149
+2024-09-18 14:22:56,195 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-149
+2024-09-18 14:22:56,196 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-150
+2024-09-18 14:22:56,200 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-150
+2024-09-18 14:22:56,200 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-150
+2024-09-18 14:22:56,200 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-09-18 14:22:56,200 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-09-18 15:29:18,042 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-09-18 15:29:18,044 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-09-18 15:29:18,046 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-09-18 15:29:18,245 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 只访问视频
+2024-09-18 15:29:18,245 INFO o.a.j.e.StandardJMeterEngine: Starting 150 threads for group 只访问视频.
+2024-09-18 15:29:18,245 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-09-18 15:29:18,246 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=150 ramp-up=1 delayedStart=false
+2024-09-18 15:29:18,246 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-1
+2024-09-18 15:29:18,255 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-2
+2024-09-18 15:29:18,264 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-3
+2024-09-18 15:29:18,272 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-4
+2024-09-18 15:29:18,279 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-5
+2024-09-18 15:29:18,285 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-6
+2024-09-18 15:29:18,285 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-5
+2024-09-18 15:29:18,285 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-5
+2024-09-18 15:29:18,287 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-1
+2024-09-18 15:29:18,287 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-1
+2024-09-18 15:29:18,288 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-3
+2024-09-18 15:29:18,288 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-3
+2024-09-18 15:29:18,288 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-2
+2024-09-18 15:29:18,288 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-2
+2024-09-18 15:29:18,288 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-6
+2024-09-18 15:29:18,288 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-6
+2024-09-18 15:29:18,291 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-7
+2024-09-18 15:29:18,291 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-09-18 15:29:18,291 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-09-18 15:29:18,296 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-7
+2024-09-18 15:29:18,296 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-7
+2024-09-18 15:29:18,300 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-8
+2024-09-18 15:29:18,302 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-9
+2024-09-18 15:29:18,303 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-8
+2024-09-18 15:29:18,303 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-8
+2024-09-18 15:29:18,309 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-10
+2024-09-18 15:29:18,312 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-9
+2024-09-18 15:29:18,312 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-9
+2024-09-18 15:29:18,352 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-11
+2024-09-18 15:29:18,352 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-12
+2024-09-18 15:29:18,352 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-13
+2024-09-18 15:29:18,352 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-15
+2024-09-18 15:29:18,353 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-14
+2024-09-18 15:29:18,353 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-10
+2024-09-18 15:29:18,353 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-10
+2024-09-18 15:29:18,354 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-16
+2024-09-18 15:29:18,363 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-12
+2024-09-18 15:29:18,363 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-12
+2024-09-18 15:29:18,432 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-15
+2024-09-18 15:29:18,432 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-15
+2024-09-18 15:29:18,432 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-4
+2024-09-18 15:29:18,432 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-14
+2024-09-18 15:29:18,432 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-14
+2024-09-18 15:29:18,432 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-25
+2024-09-18 15:29:18,432 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-13
+2024-09-18 15:29:18,436 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-16
+2024-09-18 15:29:18,432 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-23
+2024-09-18 15:29:18,432 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-26
+2024-09-18 15:29:18,436 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-16
+2024-09-18 15:29:18,435 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-18
+2024-09-18 15:29:18,436 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-28
+2024-09-18 15:29:18,432 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-27
+2024-09-18 15:29:18,435 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-21
+2024-09-18 15:29:18,435 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-17
+2024-09-18 15:29:18,435 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-20
+2024-09-18 15:29:18,435 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-22
+2024-09-18 15:29:18,435 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-19
+2024-09-18 15:29:18,432 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-4
+2024-09-18 15:29:18,432 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-24
+2024-09-18 15:29:18,441 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-13
+2024-09-18 15:29:18,451 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-29
+2024-09-18 15:29:18,454 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-30
+2024-09-18 15:29:18,456 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-25
+2024-09-18 15:29:18,456 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-25
+2024-09-18 15:29:18,466 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-27
+2024-09-18 15:29:18,466 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-27
+2024-09-18 15:29:18,466 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-23
+2024-09-18 15:29:18,466 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-23
+2024-09-18 15:29:18,466 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-32
+2024-09-18 15:29:18,467 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-24
+2024-09-18 15:29:18,467 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-31
+2024-09-18 15:29:18,467 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-19
+2024-09-18 15:29:18,467 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-19
+2024-09-18 15:29:18,468 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-28
+2024-09-18 15:29:18,468 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-28
+2024-09-18 15:29:18,468 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-18
+2024-09-18 15:29:18,468 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-18
+2024-09-18 15:29:18,467 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-24
+2024-09-18 15:29:18,468 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-20
+2024-09-18 15:29:18,468 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-20
+2024-09-18 15:29:18,468 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-29
+2024-09-18 15:29:18,468 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-29
+2024-09-18 15:29:18,468 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-30
+2024-09-18 15:29:18,468 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-22
+2024-09-18 15:29:18,468 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-30
+2024-09-18 15:29:18,469 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-17
+2024-09-18 15:29:18,469 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-17
+2024-09-18 15:29:18,468 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-26
+2024-09-18 15:29:18,469 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-26
+2024-09-18 15:29:18,469 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-21
+2024-09-18 15:29:18,469 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-21
+2024-09-18 15:29:18,468 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-22
+2024-09-18 15:29:18,471 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-31
+2024-09-18 15:29:18,471 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-31
+2024-09-18 15:29:18,471 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-33
+2024-09-18 15:29:18,471 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-32
+2024-09-18 15:29:18,471 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-32
+2024-09-18 15:29:18,474 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-33
+2024-09-18 15:29:18,474 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-33
+2024-09-18 15:29:18,482 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-34
+2024-09-18 15:29:18,487 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-34
+2024-09-18 15:29:18,487 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-34
+2024-09-18 15:29:18,489 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-35
+2024-09-18 15:29:18,492 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-36
+2024-09-18 15:29:18,497 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-35
+2024-09-18 15:29:18,497 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-35
+2024-09-18 15:29:18,499 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-37
+2024-09-18 15:29:18,504 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-36
+2024-09-18 15:29:18,504 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-36
+2024-09-18 15:29:18,505 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-37
+2024-09-18 15:29:18,506 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-37
+2024-09-18 15:29:18,506 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-38
+2024-09-18 15:29:18,515 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-38
+2024-09-18 15:29:18,515 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-38
+2024-09-18 15:29:18,516 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-39
+2024-09-18 15:29:18,520 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-40
+2024-09-18 15:29:18,525 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-39
+2024-09-18 15:29:18,525 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-39
+2024-09-18 15:29:18,527 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-40
+2024-09-18 15:29:18,527 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-40
+2024-09-18 15:29:18,530 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-41
+2024-09-18 15:29:18,536 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-42
+2024-09-18 15:29:18,542 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-41
+2024-09-18 15:29:18,542 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-41
+2024-09-18 15:29:18,545 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-43
+2024-09-18 15:29:18,546 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-42
+2024-09-18 15:29:18,546 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-42
+2024-09-18 15:29:18,553 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-44
+2024-09-18 15:29:18,561 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-44
+2024-09-18 15:29:18,561 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-44
+2024-09-18 15:29:18,561 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-45
+2024-09-18 15:29:18,565 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-46
+2024-09-18 15:29:18,568 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-45
+2024-09-18 15:29:18,568 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-45
+2024-09-18 15:29:18,568 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-46
+2024-09-18 15:29:18,568 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-46
+2024-09-18 15:29:18,574 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-47
+2024-09-18 15:29:18,576 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-48
+2024-09-18 15:29:18,581 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-47
+2024-09-18 15:29:18,581 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-47
+2024-09-18 15:29:18,583 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-48
+2024-09-18 15:29:18,583 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-48
+2024-09-18 15:29:18,584 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-49
+2024-09-18 15:29:18,589 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-49
+2024-09-18 15:29:18,589 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-49
+2024-09-18 15:29:18,592 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-50
+2024-09-18 15:29:18,599 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-50
+2024-09-18 15:29:18,599 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-50
+2024-09-18 15:29:18,601 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-51
+2024-09-18 15:29:18,605 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-51
+2024-09-18 15:29:18,605 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-51
+2024-09-18 15:29:18,609 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-52
+2024-09-18 15:29:18,614 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-52
+2024-09-18 15:29:18,614 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-52
+2024-09-18 15:29:18,614 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-53
+2024-09-18 15:29:18,619 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-53
+2024-09-18 15:29:18,619 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-53
+2024-09-18 15:29:18,622 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-54
+2024-09-18 15:29:18,628 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-54
+2024-09-18 15:29:18,628 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-54
+2024-09-18 15:29:18,630 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-55
+2024-09-18 15:29:18,632 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-56
+2024-09-18 15:29:18,636 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-55
+2024-09-18 15:29:18,636 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-55
+2024-09-18 15:29:18,636 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-56
+2024-09-18 15:29:18,636 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-56
+2024-09-18 15:29:18,643 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-57
+2024-09-18 15:29:18,651 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-57
+2024-09-18 15:29:18,651 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-57
+2024-09-18 15:29:18,651 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-58
+2024-09-18 15:29:18,657 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-58
+2024-09-18 15:29:18,657 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-58
+2024-09-18 15:29:18,658 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-59
+2024-09-18 15:29:18,663 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-59
+2024-09-18 15:29:18,663 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-59
+2024-09-18 15:29:18,664 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-60
+2024-09-18 15:29:18,672 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-61
+2024-09-18 15:29:18,677 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-62
+2024-09-18 15:29:18,678 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-60
+2024-09-18 15:29:18,678 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-60
+2024-09-18 15:29:18,679 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-61
+2024-09-18 15:29:18,679 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-61
+2024-09-18 15:29:18,685 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-63
+2024-09-18 15:29:18,693 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-64
+2024-09-18 15:29:18,695 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-63
+2024-09-18 15:29:18,695 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-63
+2024-09-18 15:29:18,699 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-65
+2024-09-18 15:29:18,705 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-66
+2024-09-18 15:29:18,706 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-64
+2024-09-18 15:29:18,706 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-65
+2024-09-18 15:29:18,706 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-64
+2024-09-18 15:29:18,706 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-65
+2024-09-18 15:29:18,710 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-67
+2024-09-18 15:29:18,710 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-66
+2024-09-18 15:29:18,710 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-66
+2024-09-18 15:29:18,712 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-67
+2024-09-18 15:29:18,712 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-67
+2024-09-18 15:29:18,721 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-68
+2024-09-18 15:29:18,726 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-68
+2024-09-18 15:29:18,726 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-68
+2024-09-18 15:29:18,728 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-69
+2024-09-18 15:29:18,732 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-69
+2024-09-18 15:29:18,732 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-69
+2024-09-18 15:29:18,735 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-70
+2024-09-18 15:29:18,738 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-70
+2024-09-18 15:29:18,738 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-70
+2024-09-18 15:29:18,741 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-71
+2024-09-18 15:29:18,747 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-71
+2024-09-18 15:29:18,747 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-71
+2024-09-18 15:29:18,748 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-72
+2024-09-18 15:29:18,756 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-73
+2024-09-18 15:29:18,762 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-73
+2024-09-18 15:29:18,762 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-73
+2024-09-18 15:29:18,763 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-74
+2024-09-18 15:29:18,769 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-74
+2024-09-18 15:29:18,769 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-74
+2024-09-18 15:29:18,769 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-75
+2024-09-18 15:29:18,771 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-11
+2024-09-18 15:29:18,771 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-11
+2024-09-18 15:29:18,776 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-75
+2024-09-18 15:29:18,776 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-75
+2024-09-18 15:29:18,776 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-76
+2024-09-18 15:29:18,788 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-77
+2024-09-18 15:29:18,788 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-78
+2024-09-18 15:29:18,796 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-79
+2024-09-18 15:29:18,799 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-80
+2024-09-18 15:29:18,800 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-76
+2024-09-18 15:29:18,800 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-76
+2024-09-18 15:29:18,800 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-77
+2024-09-18 15:29:18,800 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-77
+2024-09-18 15:29:18,801 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-79
+2024-09-18 15:29:18,801 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-79
+2024-09-18 15:29:18,801 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-78
+2024-09-18 15:29:18,801 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-78
+2024-09-18 15:29:18,803 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-80
+2024-09-18 15:29:18,803 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-80
+2024-09-18 15:29:18,812 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-81
+2024-09-18 15:29:18,817 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-82
+2024-09-18 15:29:18,823 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-83
+2024-09-18 15:29:18,829 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-82
+2024-09-18 15:29:18,829 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-82
+2024-09-18 15:29:18,831 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-84
+2024-09-18 15:29:18,835 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-85
+2024-09-18 15:29:18,838 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-84
+2024-09-18 15:29:18,838 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-84
+2024-09-18 15:29:18,841 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-83
+2024-09-18 15:29:18,841 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-83
+2024-09-18 15:29:18,842 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-85
+2024-09-18 15:29:18,842 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-85
+2024-09-18 15:29:18,845 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-86
+2024-09-18 15:29:18,849 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-87
+2024-09-18 15:29:18,850 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-86
+2024-09-18 15:29:18,850 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-86
+2024-09-18 15:29:18,852 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-87
+2024-09-18 15:29:18,852 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-87
+2024-09-18 15:29:18,861 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-88
+2024-09-18 15:29:18,862 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-89
+2024-09-18 15:29:18,864 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-88
+2024-09-18 15:29:18,864 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-88
+2024-09-18 15:29:18,865 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-89
+2024-09-18 15:29:18,865 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-89
+2024-09-18 15:29:18,868 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-43
+2024-09-18 15:29:18,868 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-43
+2024-09-18 15:29:18,875 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-90
+2024-09-18 15:29:18,881 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-91
+2024-09-18 15:29:18,885 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-90
+2024-09-18 15:29:18,885 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-90
+2024-09-18 15:29:18,886 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-91
+2024-09-18 15:29:18,886 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-91
+2024-09-18 15:29:18,889 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-92
+2024-09-18 15:29:18,895 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-92
+2024-09-18 15:29:18,895 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-92
+2024-09-18 15:29:18,896 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-93
+2024-09-18 15:29:18,897 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-94
+2024-09-18 15:29:18,902 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-94
+2024-09-18 15:29:18,902 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-94
+2024-09-18 15:29:18,903 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-93
+2024-09-18 15:29:18,903 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-93
+2024-09-18 15:29:18,908 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-95
+2024-09-18 15:29:18,913 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-96
+2024-09-18 15:29:18,915 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-95
+2024-09-18 15:29:18,915 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-95
+2024-09-18 15:29:18,918 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-97
+2024-09-18 15:29:18,920 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-96
+2024-09-18 15:29:18,920 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-96
+2024-09-18 15:29:18,922 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-97
+2024-09-18 15:29:18,922 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-97
+2024-09-18 15:29:18,930 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-98
+2024-09-18 15:29:18,935 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-98
+2024-09-18 15:29:18,935 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-98
+2024-09-18 15:29:18,935 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-99
+2024-09-18 15:29:18,941 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-99
+2024-09-18 15:29:18,941 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-99
+2024-09-18 15:29:18,944 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-100
+2024-09-18 15:29:18,949 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-100
+2024-09-18 15:29:18,949 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-100
+2024-09-18 15:29:18,951 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-101
+2024-09-18 15:29:18,954 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-102
+2024-09-18 15:29:18,955 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-101
+2024-09-18 15:29:18,955 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-101
+2024-09-18 15:29:18,963 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-102
+2024-09-18 15:29:18,963 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-102
+2024-09-18 15:29:18,966 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-103
+2024-09-18 15:29:18,969 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-103
+2024-09-18 15:29:18,969 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-103
+2024-09-18 15:29:18,970 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-104
+2024-09-18 15:29:18,977 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-62
+2024-09-18 15:29:18,977 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-62
+2024-09-18 15:29:18,978 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-105
+2024-09-18 15:29:18,980 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-104
+2024-09-18 15:29:18,980 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-104
+2024-09-18 15:29:18,984 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-106
+2024-09-18 15:29:18,985 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-105
+2024-09-18 15:29:18,985 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-105
+2024-09-18 15:29:18,987 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-106
+2024-09-18 15:29:18,987 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-106
+2024-09-18 15:29:18,989 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-107
+2024-09-18 15:29:18,989 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-72
+2024-09-18 15:29:18,990 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-72
+2024-09-18 15:29:18,993 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-107
+2024-09-18 15:29:18,993 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-107
+2024-09-18 15:29:19,001 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-108
+2024-09-18 15:29:19,006 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-108
+2024-09-18 15:29:19,006 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-108
+2024-09-18 15:29:19,007 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-109
+2024-09-18 15:29:19,008 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-81
+2024-09-18 15:29:19,008 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-81
+2024-09-18 15:29:19,013 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-110
+2024-09-18 15:29:19,014 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-109
+2024-09-18 15:29:19,014 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-109
+2024-09-18 15:29:19,020 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-111
+2024-09-18 15:29:19,025 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-112
+2024-09-18 15:29:19,034 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-113
+2024-09-18 15:29:19,037 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-111
+2024-09-18 15:29:19,037 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-111
+2024-09-18 15:29:19,037 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-112
+2024-09-18 15:29:19,037 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-112
+2024-09-18 15:29:19,037 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-113
+2024-09-18 15:29:19,037 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-113
+2024-09-18 15:29:19,038 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-114
+2024-09-18 15:29:19,043 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-114
+2024-09-18 15:29:19,043 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-114
+2024-09-18 15:29:19,046 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-115
+2024-09-18 15:29:19,048 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-115
+2024-09-18 15:29:19,048 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-115
+2024-09-18 15:29:19,057 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-116
+2024-09-18 15:29:19,060 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-116
+2024-09-18 15:29:19,060 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-116
+2024-09-18 15:29:19,064 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-117
+2024-09-18 15:29:19,069 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-117
+2024-09-18 15:29:19,069 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-117
+2024-09-18 15:29:19,070 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-118
+2024-09-18 15:29:19,076 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-119
+2024-09-18 15:29:19,080 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-119
+2024-09-18 15:29:19,080 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-119
+2024-09-18 15:29:19,082 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-118
+2024-09-18 15:29:19,082 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-118
+2024-09-18 15:29:19,085 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-120
+2024-09-18 15:29:19,089 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-121
+2024-09-18 15:29:19,096 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-122
+2024-09-18 15:29:19,098 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-110
+2024-09-18 15:29:19,098 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-110
+2024-09-18 15:29:19,100 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-121
+2024-09-18 15:29:19,100 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-121
+2024-09-18 15:29:19,103 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-123
+2024-09-18 15:29:19,104 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-122
+2024-09-18 15:29:19,104 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-122
+2024-09-18 15:29:19,107 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-123
+2024-09-18 15:29:19,107 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-123
+2024-09-18 15:29:19,112 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-124
+2024-09-18 15:29:19,115 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-125
+2024-09-18 15:29:19,116 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-124
+2024-09-18 15:29:19,116 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-124
+2024-09-18 15:29:19,118 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-125
+2024-09-18 15:29:19,118 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-125
+2024-09-18 15:29:19,123 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-126
+2024-09-18 15:29:19,126 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-126
+2024-09-18 15:29:19,126 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-126
+2024-09-18 15:29:19,129 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-127
+2024-09-18 15:29:19,131 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-127
+2024-09-18 15:29:19,131 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-127
+2024-09-18 15:29:19,140 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-128
+2024-09-18 15:29:19,145 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-128
+2024-09-18 15:29:19,145 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-128
+2024-09-18 15:29:19,147 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-129
+2024-09-18 15:29:19,149 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-120
+2024-09-18 15:29:19,149 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-120
+2024-09-18 15:29:19,151 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-130
+2024-09-18 15:29:19,158 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-131
+2024-09-18 15:29:19,161 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-129
+2024-09-18 15:29:19,161 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-129
+2024-09-18 15:29:19,161 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-131
+2024-09-18 15:29:19,161 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-131
+2024-09-18 15:29:19,165 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-132
+2024-09-18 15:29:19,169 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-132
+2024-09-18 15:29:19,169 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-132
+2024-09-18 15:29:19,182 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-133
+2024-09-18 15:29:19,182 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-134
+2024-09-18 15:29:19,188 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-135
+2024-09-18 15:29:19,192 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-136
+2024-09-18 15:29:19,202 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-134
+2024-09-18 15:29:19,202 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-134
+2024-09-18 15:29:19,203 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-136
+2024-09-18 15:29:19,203 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-133
+2024-09-18 15:29:19,203 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-133
+2024-09-18 15:29:19,203 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-135
+2024-09-18 15:29:19,203 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-135
+2024-09-18 15:29:19,203 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-136
+2024-09-18 15:29:19,203 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-137
+2024-09-18 15:29:19,217 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-138
+2024-09-18 15:29:19,218 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-139
+2024-09-18 15:29:19,219 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-130
+2024-09-18 15:29:19,219 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-130
+2024-09-18 15:29:19,221 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-137
+2024-09-18 15:29:19,222 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-137
+2024-09-18 15:29:19,222 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-138
+2024-09-18 15:29:19,222 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-139
+2024-09-18 15:29:19,222 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-138
+2024-09-18 15:29:19,222 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-139
+2024-09-18 15:29:19,223 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-140
+2024-09-18 15:29:19,226 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-140
+2024-09-18 15:29:19,226 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-140
+2024-09-18 15:29:19,227 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-141
+2024-09-18 15:29:19,229 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-141
+2024-09-18 15:29:19,229 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-141
+2024-09-18 15:29:19,239 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-142
+2024-09-18 15:29:19,242 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-142
+2024-09-18 15:29:19,242 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-142
+2024-09-18 15:29:19,246 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-143
+2024-09-18 15:29:19,249 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-143
+2024-09-18 15:29:19,250 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-143
+2024-09-18 15:29:19,252 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-144
+2024-09-18 15:29:19,256 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-145
+2024-09-18 15:29:19,257 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-144
+2024-09-18 15:29:19,257 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-144
+2024-09-18 15:29:19,260 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-145
+2024-09-18 15:29:19,260 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-145
+2024-09-18 15:29:19,265 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-146
+2024-09-18 15:29:19,268 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-146
+2024-09-18 15:29:19,268 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-146
+2024-09-18 15:29:19,272 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-147
+2024-09-18 15:29:19,276 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-147
+2024-09-18 15:29:19,276 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-147
+2024-09-18 15:29:19,282 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-148
+2024-09-18 15:29:19,288 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-149
+2024-09-18 15:29:19,295 INFO o.a.j.t.JMeterThread: Thread started: 只访问视频 1-150
+2024-09-18 15:29:19,309 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-148
+2024-09-18 15:29:19,309 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-148
+2024-09-18 15:29:19,310 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-149
+2024-09-18 15:29:19,310 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-149
+2024-09-18 15:29:19,313 INFO o.a.j.t.JMeterThread: Thread is done: 只访问视频 1-150
+2024-09-18 15:29:19,313 INFO o.a.j.t.JMeterThread: Thread finished: 只访问视频 1-150
+2024-09-18 15:29:19,314 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-09-18 15:29:19,314 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)

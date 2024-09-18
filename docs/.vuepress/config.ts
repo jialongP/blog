@@ -138,7 +138,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     bodyBgImg: [
       // 'https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200507175828.jpeg',
-        'http://qiniu.pjllll.top/wallhaven-l81qoy_3840x2160.png',
+        'http://qiniu.pjllll.top/21113.png',
     //   'https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200507175845.jpeg',
     //   'https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200507175846.jpeg'
     ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时隔bodyBgImgInterval切换一张。
